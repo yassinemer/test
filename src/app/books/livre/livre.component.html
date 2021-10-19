@@ -1,0 +1,11 @@
+<p class="">{{l.title |uppercase}} Prix: {{l.price}} DT</p>
+
+       
+<img class="" src="{{l.cover}}" />   
+
+     <button class="btn btn-success" name="afficher prix"  (click)="finalPrice()" [ngClass]="{'btn btn-warning':l.reduction==0}">Prix Finale</button>
+<div [hidden]="t">
+
+    
+</div>
+   
